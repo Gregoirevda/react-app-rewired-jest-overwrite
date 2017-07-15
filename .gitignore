@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 
+!/node_modules/react-app-rewired/scripts/utils/createJestConfig.js
+
 # testing
 /coverage
 
