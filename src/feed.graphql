@@ -1,0 +1,12 @@
+{
+  feed (type: TOP, limit: 10) {
+    repository {
+      name, owner { login }
+
+      # Uncomment the line below to get number of stars!
+      # stargazers_count
+    }
+
+    postedBy { login }
+  }
+}

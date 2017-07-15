@@ -1,0 +1,27 @@
+{
+  "name": "test-react-app-rewired-jest-overwrite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "graphql-tag": "^2.4.2",
+    "jest-transform-graphql": "^2.1.0",
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.3",
+    "react-app-rewired": "^1.0.9",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(graphql|gql)$": "jest-transform-graphql"
+    }
+  }
+}
