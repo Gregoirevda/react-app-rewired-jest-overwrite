@@ -4988,9 +4988,9 @@ react-apollo@^1.4.3:
   optionalDependencies:
     react-dom "0.14.x || 15.* || ^15.0.0 || ^16.0.0-alpha"
 
-react-app-rewired@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-1.0.9.tgz#7e0486e2cc706a5f0f6995b2866cf13edbd60846"
+react-app-rewired@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/react-app-rewired/-/react-app-rewired-1.0.10.tgz#a835640adc58c8ca944da6bab1f3c8a14e3fa9aa"
   dependencies:
     cross-spawn "^5.1.0"
     dotenv "^4.0.0"
